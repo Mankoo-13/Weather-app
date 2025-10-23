@@ -21,7 +21,7 @@ function Searchbar() {
             alert("please enter the city first")
         }
         try {
-            let res = await fetch(`http://api.weatherapi.com/v1/current.json?key=3c5387f3d3b94881a7c31133251310&q=${city}&aqi=yes`)
+            let res = await fetch(`https://api.weatherapi.com/v1/current.json?key=3c5387f3d3b94881a7c31133251310&q=${city}&aqi=yes`)
             let data = await res.json()
             console.log(data)
             setweatherdata(data)
