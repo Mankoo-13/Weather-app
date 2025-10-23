@@ -1,0 +1,158 @@
+.heading1 {
+    color: black;
+    font-family: "Instrument Sans", sans-serif;
+    color: #AC3B61;
+    padding: 10px 10px;
+}
+
+.location {
+    color: #AC3B61;
+    font-family: "Instrument Sans", sans-serif;
+    position: relative;
+    left: 90%;
+    margin-top: -20px;
+}
+
+.icon1 {
+    font-size: 30px;
+    position: absolute;
+    left: 17.5%;
+    margin-top: -40px;
+}
+
+.searchbar {
+    position: relative;
+    left: 40%;
+    margin-top: 8rem;
+    width: 300px;
+    border-radius: 10px;
+    height: 35px;
+    text-align: center;
+
+}
+
+.btn1 {
+    position: relative;
+    left: 38%;
+    background-color: transparent;
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.icon2 {
+    font-size: 17px;
+
+}
+
+.wdata1 {
+    color: #AC3B61;
+    position: relative;
+    left: 55%;
+    font-size: 20px;
+    margin-top: 5px;
+    font-family: "Kanit", sans-serif;
+}
+
+.wdata2 {
+    color: #AC3B61;
+    font-size: 40px;
+    position: relative;
+    left: 55%;
+    margin-top: 100px;
+    font-family: "Kanit", sans-serif;
+}
+
+.icon3 {}
+
+.wdata3 {
+    color: #AC3B61;
+    position: relative;
+    left: 80%;
+    margin-top: -70px;
+    font-family: "Kanit", sans-serif;
+
+}
+
+.wdata4 {
+    color: #123C69;
+    font-size: 30px;
+    position: relative;
+    left: 55%;
+    margin-top: 5px;
+    font-family: "Kanit", sans-serif;
+
+}
+
+.footer {
+    text-align: center;
+    font-family: sans-serif;
+    color: #123C69;
+    font-size: 15px;
+}
+
+/* 
+responsiveness querries */
+
+@media screen and (max-width :420px) {
+    .heading1 {
+
+        text-align: center;
+        font-size: 2rem;
+        padding: 2rem 2rem;
+    }
+
+    .location {
+        position: relative;
+        left: 40%;
+        font-size: 4vw;
+        padding: 1rem 0.5rem;
+    }
+
+    .icon1 {
+        color: black;
+        position: absolute;
+        left: 82%;
+        margin-top: -4rem
+    }
+
+    .searchbar {
+        position: relative;
+        left: 15%;
+        margin: 4vh auto;
+    }
+
+    .btn1 {
+        position: relative;
+        left: 8%;
+    }
+
+    .icon2 {}
+
+    .wdata1 {
+        font-size: 1rem;
+        margin: 1rem 0 2rem 3.25rem
+    }
+
+    .wdata2 {
+        margin: 6rem 0 1rem 4rem;
+        font-size: 2rem;
+    }
+
+    .wdata3 {
+        font-size: 1rem;
+        position: relative;
+        top: 150%;
+        left: 10%;
+    }
+
+    .wdata4 {
+        font-size: 1.5em;
+        position: absolute;
+        top: 65%
+    }
+
+    .footer {}
+}
