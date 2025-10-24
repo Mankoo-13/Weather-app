@@ -96,7 +96,7 @@
 /* 
 responsiveness querries */
 
-@media screen and (max-width :420px) {
+@media screen and (max-width :400px ) {
     .heading1 {
 
         text-align: center;
@@ -108,51 +108,50 @@ responsiveness querries */
         position: relative;
         left: 40%;
         font-size: 4vw;
+        color: black;
         padding: 1rem 0.5rem;
     }
 
     .icon1 {
-        color: black;
-        position: absolute;
-        left: 82%;
-        margin-top: -4rem
+        position: relative;
+        top: -7vh;
+        left: 85vw;
     }
 
     .searchbar {
-        position: relative;
-        left: 15%;
+         position: relative;
+        left: 10vw;
         margin: 4vh auto;
     }
 
     .btn1 {
         position: relative;
-        left: 8%;
+        left: 2vw;
     }
 
     .icon2 {}
 
     .wdata1 {
-        font-size: 1rem;
-        margin: 1rem 0 2rem 3.25rem
+               font-size: 0.75em;
+        margin: 1rem 0 2rem 3rem
     }
 
     .wdata2 {
-        margin: 6rem 0 1rem 4rem;
-        font-size: 2rem;
+               margin: 6rem 0 1rem 3rem;
+        font-size: 1.75rem;
     }
 
     .wdata3 {
         font-size: 1rem;
-        position: relative;
-        top: 150%;
-        left: 10%;
+        margin: 6rem 0rem 0rem -40vw;
     }
 
     .wdata4 {
-        font-size: 1.5em;
-        position: absolute;
-        top: 65%
+       font-size: 1em;
+        margin: 1rem 0rem 3rem 3rem;
     }
 
-    .footer {}
+    .footer {
+
+    }
 }

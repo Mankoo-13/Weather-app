@@ -9,12 +9,12 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 5px;
-    position: absolute;
-    left: 50%;
-    top: 70%;
+    position: relative;
+    margin: 10px auto;
     background-color: #CECECE;
     padding: 60px 10px;
-    width: 672px;
+    max-width: 672px;
+    width: 90%;
     border-radius: 20px;
     height: 140px;
 }
@@ -40,7 +40,7 @@
 /* 
 Responsiveness querries */
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 400px) {
     .weatherbg {
         position: absolute;
         left: -10%;
@@ -53,31 +53,28 @@ Responsiveness querries */
     }
 
     .weatherbar {
-        position: relative;
-        left: 10%;
-        gap: 3px;
-        margin-top: 80px;
-        height: 30vh;
-        width: 80vw;
+        direction: flex;
+        flex-direction: column;
+        margin-top: 10vh;
+        width: 90%;
+        height: auto;
         padding: 5px 5px;
-        max-width: 672px;
+        justify-content: center;
+        align-items: center;
     }
 
     .daynight {
-        margin-left: 8px;
-        margin-top: 10px
+     margin-top: 2vh;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .icon1 {
-        position: relative;
-        top: 18%;
-        right: 12%;
+         margin: 1vh 1vw;
     }
 
     .temp {
-        position: relative;
-        top: 18%;
-        left: -20%
+              margin: -2% 10px 5% 25%;
     }
 
 
