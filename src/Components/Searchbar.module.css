@@ -2,6 +2,7 @@
     color: black;
     font-family: "Instrument Sans", sans-serif;
     color: #AC3B61;
+    font-size: clamp(1rem, 10vh, 2rem);
     padding: 10px 10px;
 }
 
@@ -9,6 +10,7 @@
     color: #AC3B61;
     font-family: "Instrument Sans", sans-serif;
     position: relative;
+    font-weight: bold;
     left: 90%;
     margin-top: -20px;
 }
@@ -25,7 +27,8 @@
     position: relative;
     left: 40%;
     margin-top: 8rem;
-    width: 300px;
+    border: 2px solid #AC3B61;
+        width: clamp(20rem,20vw,80vw);
     border-radius: 10px;
     height: 35px;
     text-align: center;
@@ -35,6 +38,7 @@
 .btn1 {
     position: relative;
     left: 38%;
+    color: #123C69;
     background-color: transparent;
     height: 30px;
     width: 30px;
@@ -52,14 +56,14 @@
     color: #AC3B61;
     position: relative;
     left: 55%;
-    font-size: 20px;
-    margin-top: 5px;
+      font-size: clamp(0.75em, 5.5vh, 0.75rem);
+    margin-top: 10px;
     font-family: "Kanit", sans-serif;
 }
 
 .wdata2 {
     color: #AC3B61;
-    font-size: 40px;
+    font-size: clamp(1em, 5.5vh, 1.10vw);
     position: relative;
     left: 55%;
     margin-top: 100px;
@@ -72,14 +76,15 @@
     color: #AC3B61;
     position: relative;
     left: 80%;
-    margin-top: -70px;
+    margin-top: -80px;
+    font-size: clamp(1em, 3vh, 1.10em);
     font-family: "Kanit", sans-serif;
 
 }
 
 .wdata4 {
     color: #123C69;
-    font-size: 30px;
+    font-size: clamp(1em, 2.78vh, 0.7 5rem);
     position: relative;
     left: 55%;
     margin-top: 5px;
@@ -97,7 +102,7 @@
 /* 
 responsiveness querries */
 
-@media screen and (max-width :400px) {
+@media screen and (max-width :450px) {
     .heading1 {
 
         text-align: center;
@@ -109,7 +114,6 @@ responsiveness querries */
         position: relative;
         left: 40%;
         font-size: 4vw;
-        color: black;
         padding: 1rem 0.5rem;
     }
 
@@ -133,13 +137,13 @@ responsiveness querries */
     .icon2 {}
 
     .wdata1 {
-        font-size: 0.75em;
+
         margin: 1rem 0 2rem 3rem
     }
 
     .wdata2 {
         margin: 6rem 0 1rem 3rem;
-        font-size: 1.75rem;
+
     }
 
     .wdata3 {
@@ -153,12 +157,12 @@ responsiveness querries */
         padding: 4vh 9vw;
         border-radius: 20px;
         left: 30%;
-        margin-top: 10vh;
+        margin-top: 14vh;
         font-family: "Kanit", sans-serif;
     }
 
     .wdata4 {
-        font-size: 1em;
+
         margin: 1rem 0rem 3rem 3rem;
     }
 
